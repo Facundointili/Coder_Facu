@@ -1,0 +1,224 @@
+@import './base/_extend';
+@import './base/_variables';
+
+
+body{
+    background-color: map-get($colores,"background-color");
+}
+
+header{
+    background-color: map-get($colores,"background-header");
+  }
+
+.btn-custom-submit{
+    @extend %button;
+    color: white;
+}
+.btn-custom-submit:hover {
+    color: white;
+    opacity: 0.75;
+}
+
+.imagen {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .mapa {
+    width: 100%;
+    height: 700px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+  
+    a {
+      gap: 50px;
+      padding: 0;
+      display: inline-block;
+      margin: 0 10px;
+      width: 40px;
+      height: 40px;
+      background-color: $default-color;
+      border-radius: 50%;
+  
+      &.icono-facebook {
+        background-color: $facebook-color;
+      }
+  
+      &.icono-twitter {
+        background-color: $twitter-color;
+      }
+  
+      &.icono-instagram {
+        background-color: $instagram-color;
+      }
+    }
+  }
+  
+  .caru {
+    width: 100%;
+    height: 650px;
+  }
+  
+  .imagenn {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+  
+  .card-text {
+    text-align: center;
+  }
+  
+  header {
+    background-color: $background-color;
+  }
+  
+  .card-renauld {
+    display: flex;
+    max-width: 1400px;
+    height: auto;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: $card-background-color;
+    text-align: center;
+    .image-container {
+      width: 78%;
+  
+      img {
+        width: 100%;
+        height: auto;
+        text-align: center;
+      }
+    }
+  
+    .content {
+      text-align: center;
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+  
+      h2 {
+        margin-top: 0;
+      }
+  
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  body {
+    background-color: #f5f1ec;
+  }
+  
+  .container-text {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: $container-background-color;
+  }
+  
+  .text-container {
+    color: $text-color;
+  }
+
+  .button-base {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.button-primary {
+  @extend %button-base;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.button-secondary {
+  @extend %button-base;
+  background-color: #f44336;
+  color: white;
+}
+
+.button-outline {
+  @extend %button-base;
+  background-color: transparent;
+  color: #3f51b5;
+  border: 1px solid #3f51b5;
+}
+
+.button-link {
+  @extend %button-base;
+  background-color: transparent;
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+
+.card-renauld {
+  @include card-renauld;
+}
+
+.card {
+  @include card;
+}
+
+.container-text {
+  @include container-text;
+}
+
+.redes-sociales a {
+  @include redes-sociales-link;
+}
+
+.btn-custom-submit {
+  @extend %btn-custom-submit;
+}
+
+.card-renauld .content {
+  @include card-content;
+}
+
+
+.inda {
+  @include inda;
+}
+
+.contactoo {
+  @include contactoo;
+}
+
+.te {
+  @include te;
+}
+
+.map {
+  @include map;
+}
+
+.card-body{
+@include card-body;
+}
+

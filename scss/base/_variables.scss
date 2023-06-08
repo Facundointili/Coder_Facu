@@ -1,0 +1,114 @@
+$colores:(
+    "background-color": #F5F1EC,
+    "background-header": #d0d4d6,
+);
+
+
+$primary-color: black;
+$secondary-color: blue;
+
+$default-color: #333;
+$facebook-color: #3b5998;
+$twitter-color: #1da1f2;
+$instagram-color: #c13584;
+$background-color: #d0d4d6;
+$card-background-color: rgba(240, 248, 255, 0.445);
+$container-background-color: #e9dfdf70;
+$text-color: #787b7c;
+
+
+$primary-color: $default-color;
+$secondary-color: $facebook-color;
+
+@if $primary-color ==$default-color {
+    $facebook-color: #3b5998;
+    $instagram-color: #c13584;
+}
+
+@else if $primary-color ==$facebook-color {
+    $background-color: #d0d4d6;
+    $twitter-color: #1da1f2;
+}
+
+@else if $primary-color ==$twitter-color {
+    $default-color: #333;
+    $background-color: #d0d4d6;
+}
+
+@else if $primary-color ==$instagram-color {
+    $text-color: #787b7c;
+    $instagram-color: #c13584;
+}
+
+@else {
+    $default-color: #333;
+    $facebook-color: #3b5998;
+}
+
+@mixin card-renauld {
+    display: flex;
+    max-width: 1400px;
+    height: auto;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(240, 248, 255, 0.445);
+    text-align: center;
+  }
+  
+  @mixin card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  @mixin container-text {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(233, 223, 223, 0.4392156863);
+  }
+
+  @mixin redes-sociales-link {
+    gap: 50px;
+    padding: 0;
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  
+  @mixin card-content {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  @mixin inda {
+    height: 250px;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  @mixin contactoo {
+    background-color: rgba(39, 39, 39, 0.231372549);
+  }
+  
+  @mixin te {
+    margin: 10px;
+  }
+  
+  @mixin map {
+    margin-top: 35px;
+  }
+
+  @mixin card-body{
+    background-color: rgba(80, 77, 77, 0.479);
+    text-align: center;
+  }
+

@@ -1,0 +1,23 @@
+%button{
+    background-color: #272727;
+    opacity: 1;
+}
+
+%base-styles {
+    text-align: center;
+    padding: 20px;
+  }
+
+  %btn-custom-submit {
+    background-color: #272727;
+    opacity: 1;
+  }
+  
+  
+%button-base {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
