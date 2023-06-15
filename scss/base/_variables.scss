@@ -112,3 +112,161 @@ $secondary-color: $facebook-color;
     text-align: center;
   }
 
+  @mixin card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(36, 36, 36);
+  }
+  
+  @mixin center-align {
+    text-align: center;
+  }
+  
+  @mixin imagenes {
+    width: 200px;
+    height: 500px;
+  }
+  
+  @mixin d-img {
+    width: 100%;
+    height: 450px;
+  }
+  
+  @mixin h1-color {
+    color: rgb(235, 134, 134);
+  }
+  
+  @mixin main-padding {
+    padding: 50px;
+  }
+  
+  @mixin card-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  @mixin card {
+    background-color: #ccc;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05) rotateY(10deg);
+    }
+  }
+  
+  @mixin card-image-1 {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  @mixin card-content {
+    padding: 20px;
+  }
+  
+  @mixin card-title-small {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  @mixin card-description {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  @mixin card_2 {
+    max-width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgb(117, 116, 114);
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: rgba(150, 149, 148, 0.822);
+    }
+  }
+  
+  @mixin card-body {
+    padding: 20px;
+  }
+  
+  @mixin card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  @mixin h2-title {
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  @mixin h4-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  @mixin paragraph {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    @mixin main-padding-mobile {
+      padding: 30px;
+    }
+  
+    @mixin card-mobile {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    @mixin card-image-mobile {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px 8px 0 0;
+    }
+  
+    @mixin card-content-mobile {
+      padding: 15px;
+    }
+  
+    @mixin card-title-small-mobile {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+  
+    @mixin card-description-mobile {
+      font-size: 14px;
+    }
+  
+    @mixin card_2-mobile {
+      padding: 20px;
+    }
+  
+    @mixin h2-title-mobile {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+  
+    @mixin h4-title-mobile {
+      font-size: 16px;
+    }
+  
+    @mixin paragraph-mobile {
+      font-size: 14px;
+    }
+  }
+  
