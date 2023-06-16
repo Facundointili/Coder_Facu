@@ -64,6 +64,14 @@ $secondary-color: $facebook-color;
     display: inline-block;
   }
   
+  @mixin card-3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    background-color: #ccc;
+  }
+
   @mixin container-text {
     padding: 20px;
     align-items: center;
@@ -146,6 +154,7 @@ $secondary-color: $facebook-color;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    background-color: #b4b4b4;
   }
   
   @mixin card {
@@ -184,6 +193,7 @@ $secondary-color: $facebook-color;
   }
   
   @mixin card_2 {
+    margin: 30px;
     max-width: 100%;
     margin-bottom: 30px;
     padding: 20px;
@@ -270,3 +280,10 @@ $secondary-color: $facebook-color;
     }
   }
   
+  @mixin text-nos{
+    background-color: rgba(245, 245, 220, 0.178);
+    margin: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #302f2e;
+    font-size: 60px;
+  }

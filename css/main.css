@@ -271,15 +271,12 @@ h1 {
   color: rgb(235, 134, 134);
 }
 
-main {
-  padding: 50px;
-}
-
 .card-container-1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  background-color: #b4b4b4;
 }
 
 .card {
@@ -317,6 +314,7 @@ main {
 }
 
 .card_2 {
+  margin: 30px;
   max-width: 100%;
   margin-bottom: 30px;
   padding: 20px;
@@ -354,6 +352,22 @@ p {
   text-align: center;
 }
 
+.text-nos {
+  background-color: rgba(245, 245, 220, 0.178);
+  margin: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #302f2e;
+  font-size: 60px;
+}
+
+.card-3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  background-color: #ccc;
+}
+
 .social-media-list {
   list-style: none;
   padding: 0;
@@ -363,7 +377,6 @@ p {
 }
 
 .social-media-item {
-  margin: 0 10px;
   display: inline-block;
 }
 
@@ -424,7 +437,7 @@ p {
   }
 }
 footer {
-  background-color: #d8dadd;
+  background-color: #c4c2c2;
 }
 
 .d-img {
@@ -433,6 +446,16 @@ footer {
 
 .caru {
   height: 700px;
+}
+
+@media (max-width: 768px) {
+  .video-background {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.mapa {
+  padding: 20px;
 }
 
 .btn-custom-submit {

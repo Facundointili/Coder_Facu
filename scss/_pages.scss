@@ -242,9 +242,6 @@ h1 {
   @include h1-color;
 }
 
-main {
-  @include main-padding;
-}
 
 .card-container-1 {
   @include card-container-1;
@@ -295,6 +292,14 @@ p {
 }
 
 
+.text-nos{
+  @include text-nos;
+}
+
+
+.card-3{
+@include card-3;
+}
 .social-media-list {
   list-style: none;
   padding: 0;
@@ -304,7 +309,6 @@ p {
 }
 
 .social-media-item {
-  margin: 0 10px;
   display: inline-block;
 }
 
@@ -368,7 +372,7 @@ p {
 }
 
 footer{
- background-color: #d8dadd;
+ background-color: #c4c2c2;
 }
 
 .d-img{
@@ -378,3 +382,17 @@ footer{
 .caru{
   height: 700px;
 }
+
+@media (max-width: 768px) {
+  .video-background {
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+}
+
+.mapa{
+  padding: 20px;
+}
+
+
