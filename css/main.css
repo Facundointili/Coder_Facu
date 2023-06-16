@@ -427,6 +427,14 @@ footer {
   background-color: #d8dadd;
 }
 
+.d-img {
+  object-fit: cover;
+}
+
+.caru {
+  height: 700px;
+}
+
 .btn-custom-submit {
   background-color: #272727;
   opacity: 1;
