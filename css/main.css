@@ -390,6 +390,10 @@ footer {
   padding: 20px;
 }
 
+.video-foreground {
+  width: 100%;
+}
+
 .btn-custom-submit {
   background-color: #272727;
   opacity: 1;
