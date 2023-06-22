@@ -351,6 +351,30 @@ footer{
   height: 650px; 
 }
 
+@media (max-width: 438px) {
+  .mobile {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 725px;
+  }  }
+
+  @media (max-width: 360px) {
+    .mobile {
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 800px;
+    }  }
+
+    @media (max-width: 320px) {
+      .mobile {
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 1200px;
+      }  }
+
 @media (min-width: 768px) {
   .mobile {
     display: flex;

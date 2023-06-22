@@ -8,7 +8,7 @@
   opacity: 1;
 }
 
-.button-link, .button-outline, .button-secondary, .button-primary {
+.button-primary, .button-secondary, .button-outline, .button-link {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -58,6 +58,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
 .redes-sociales a {
   gap: 50px;
   padding: 0;
@@ -68,12 +69,15 @@ h2 {
   background-color: #333;
   border-radius: 50%;
 }
+
 .redes-sociales a.icono-facebook {
   background-color: #3b5998;
 }
+
 .redes-sociales a.icono-twitter {
   background-color: #1da1f2;
 }
+
 .redes-sociales a.icono-instagram {
   background-color: #c13584;
 }
@@ -111,23 +115,28 @@ header {
   background-color: rgba(240, 248, 255, 0.445);
   text-align: center;
 }
+
 .card-renauld .image-container {
   width: 78%;
 }
+
 .card-renauld .image-container img {
   width: 100%;
   height: auto;
   text-align: center;
 }
+
 .card-renauld .content {
   text-align: center;
   flex: 1;
   padding: 20px;
   text-align: center;
 }
+
 .card-renauld .content h2 {
   margin-top: 0;
 }
+
 .card-renauld .content p {
   margin-bottom: 0;
 }
@@ -140,7 +149,7 @@ body {
   padding: 20px;
   align-items: center;
   text-align: center;
-  background-color: rgba(233, 223, 223, 0.4392156863);
+  background-color: #e9dfdf70;
 }
 
 .text-container {
@@ -202,6 +211,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+
 .card:hover {
   transform: scale(1.05) rotateY(10deg);
 }
@@ -210,7 +220,7 @@ body {
   padding: 20px;
   align-items: center;
   text-align: center;
-  background-color: rgba(233, 223, 223, 0.4392156863);
+  background-color: rgba(233, 223, 223, 0.439216);
 }
 
 .redes-sociales a {
@@ -235,7 +245,7 @@ body {
 }
 
 .contactoo {
-  background-color: rgba(39, 39, 39, 0.231372549);
+  background-color: rgba(39, 39, 39, 0.231373);
   margin-bottom: 10px;
 }
 
@@ -252,10 +262,10 @@ body {
 }
 
 .card-title {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   text-align: center;
-  color: rgb(36, 36, 36);
+  color: #242424;
 }
 
 h4 {
@@ -273,7 +283,7 @@ h4 {
 }
 
 h1 {
-  color: rgb(235, 134, 134);
+  color: #eb8686;
 }
 
 .card-container-1 {
@@ -293,6 +303,7 @@ h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+
 .card:hover {
   transform: scale(1.05) rotateY(10deg);
 }
@@ -323,9 +334,10 @@ h1 {
   max-width: 100%;
   margin-bottom: 30px;
   padding: 20px;
-  background-color: rgb(117, 116, 114);
+  background-color: #757472;
   transition: background-color 0.3s ease;
 }
+
 .card_2:hover {
   background-color: rgba(150, 149, 148, 0.822);
 }
@@ -360,7 +372,7 @@ p {
 .text-nos {
   background-color: rgba(245, 245, 220, 0.178);
   margin: 40px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #302f2e;
   font-size: 60px;
 }
@@ -413,6 +425,7 @@ footer {
     height: 720px;
   }
 }
+
 .mobile {
   height: 650px;
 }
@@ -425,6 +438,7 @@ footer {
     height: 725px;
   }
 }
+
 @media (max-width: 360px) {
   .mobile {
     display: flex;
@@ -433,6 +447,7 @@ footer {
     height: 800px;
   }
 }
+
 @media (max-width: 320px) {
   .mobile {
     display: flex;
@@ -441,6 +456,7 @@ footer {
     height: 1200px;
   }
 }
+
 @media (min-width: 768px) {
   .mobile {
     display: flex;
@@ -449,6 +465,7 @@ footer {
     height: 725px;
   }
 }
+
 @media (min-width: 992px) {
   .mobile {
     display: flex;
@@ -457,6 +474,7 @@ footer {
     height: 780px;
   }
 }
+
 @media (min-width: 1200px) {
   .mobile {
     display: flex;
@@ -465,6 +483,7 @@ footer {
     height: 720px;
   }
 }
+
 @media (min-width: 1400px) {
   .mobile {
     display: flex;
@@ -473,22 +492,3 @@ footer {
     height: 645px;
   }
 }
-.btn-custom-submit {
-  background-color: #272727;
-  opacity: 1;
-}
-
-.btn-custom-submit {
-  background-color: #272727;
-  opacity: 1;
-}
-
-.button-primary, .button-secondary, .button-outline, .button-link {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-/*# sourceMappingURL=main.css.map */
