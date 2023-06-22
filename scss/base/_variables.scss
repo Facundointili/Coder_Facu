@@ -105,6 +105,7 @@ $secondary-color: $facebook-color;
   
   @mixin contactoo {
     background-color: rgba(39, 39, 39, 0.231372549);
+    margin-bottom: 10px;
   }
   
   @mixin te {
