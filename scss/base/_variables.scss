@@ -169,7 +169,7 @@ $secondary-color: $facebook-color;
   
     &:hover {
       -webkit-transition: transform 0.3s ease;
-      -moz-transition: transform 0.3s ease;
+      transition: transform 0.3s ease;
       -ms-transition: transform 0.3s ease;
       -o-transition: transform 0.3s ease;
       transform: scale(1.03) rotateY(10deg);
