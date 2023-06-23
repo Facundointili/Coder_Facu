@@ -203,7 +203,15 @@ body {
   transition: transform 0.3s ease;
 }
 .card:hover {
-  transform: scale(1.05) rotateY(10deg);
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  transform: scale(1.03) rotateY(10deg);
+  -webkit-transform: scale(1.03) rotateY(10deg);
+  -moz-transform: scale(1.03) rotateY(10deg);
+  -ms-transform: scale(1.03) rotateY(10deg);
+  -o-transform: scale(1.03) rotateY(10deg);
 }
 
 .container-text {
@@ -281,7 +289,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  background-color: #b4b4b4;
+  background-image: radial-gradient(circle, #000000, #838181, #ffffff);
 }
 
 .card {
@@ -294,7 +302,15 @@ h1 {
   transition: transform 0.3s ease;
 }
 .card:hover {
-  transform: scale(1.05) rotateY(10deg);
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  transform: scale(1.03) rotateY(10deg);
+  -webkit-transform: scale(1.03) rotateY(10deg);
+  -moz-transform: scale(1.03) rotateY(10deg);
+  -ms-transform: scale(1.03) rotateY(10deg);
+  -o-transform: scale(1.03) rotateY(10deg);
 }
 
 .card-image-1 {

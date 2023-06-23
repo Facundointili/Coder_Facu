@@ -155,7 +155,7 @@ $secondary-color: $facebook-color;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    background-color: #b4b4b4;
+    background-image: radial-gradient(circle, #000000, #838181, #ffffff);
   }
   
   @mixin card {
@@ -168,9 +168,18 @@ $secondary-color: $facebook-color;
     transition: transform 0.3s ease;
   
     &:hover {
-      transform: scale(1.05) rotateY(10deg);
+      -webkit-transition: transform 0.3s ease;
+      -moz-transition: transform 0.3s ease;
+      -ms-transition: transform 0.3s ease;
+      -o-transition: transform 0.3s ease;
+      transform: scale(1.03) rotateY(10deg);
+      -webkit-transform: scale(1.03) rotateY(10deg);
+      -moz-transform: scale(1.03) rotateY(10deg);
+      -ms-transform: scale(1.03) rotateY(10deg);
+      -o-transform: scale(1.03) rotateY(10deg);
     }
   }
+  
   
   @mixin card-image-1 {
     width: 100%;
